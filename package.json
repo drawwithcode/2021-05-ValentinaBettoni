@@ -1,0 +1,23 @@
+{
+  "name": "2021-05-valentinabettoni",
+  "version": "1.0.0",
+  "description": "simple node app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drawwithcode/2021-05-ValentinaBettoni.git"
+  },
+  "author": "Valentina Bettoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drawwithcode/2021-05-ValentinaBettoni/issues"
+  },
+  "homepage": "https://github.com/drawwithcode/2021-05-ValentinaBettoni#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
