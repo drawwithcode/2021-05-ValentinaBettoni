@@ -11,3 +11,13 @@ let server = app.listen(port);
 console.log("Server is running on http://localhost:" + port);
 
 app.use(express.static("public"));
+
+let serverSocket = require("socket.io");
+
+let io = serverSocket(server);
+
+io.on("connection", newConnection);
+
+function newConnection(newSocket) {
+  console.log(newSocket.id);
+}
